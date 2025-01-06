@@ -9,7 +9,7 @@ import {
 import { Suspense, useRef } from 'react';
 
 function Model(props) {
-  const { scene } = useGLTF("/testbake.glb");
+  const { scene } = useGLTF("./testbake.glb");
   return <primitive object={scene} {...props} />;
 }
 
