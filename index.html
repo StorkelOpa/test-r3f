@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Busbahnhof Visualisierung</title>
+    
+    <!-- Sicherstellen, dass die Anwendung den vollen Viewport nutzt -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Pfad zur kompilierten JS-Datei - dieser Pfad muss an Ihre Build-Struktur angepasst werden -->
+    <script type="module" src="/dist/main.js"></script>
+  </body>
+</html>
